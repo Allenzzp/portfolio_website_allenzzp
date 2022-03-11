@@ -42,7 +42,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: #7596AA;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -69,7 +69,7 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: #e4e6e7;
+  color: #606060;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
@@ -107,6 +107,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: #6b3030;
 font-size: 1.5rem;
 `

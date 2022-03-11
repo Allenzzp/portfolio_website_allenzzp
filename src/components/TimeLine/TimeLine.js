@@ -49,7 +49,7 @@ const Timeline = () => {
         Below is my milestone when I start learning coding.
       </SectionText>
 
-      <CarouselContainer ref={ carouselRef} onScroll={ handleScroll }>
+      <CarouselContainer ref={ carouselRef } onScroll={ handleScroll }>
         <>
           {TimeLineData.map((item, i) => (
             <CarouselMobileScrollNode key={ i } final={ i === TOTAL_CAROUSEL_COUNT - 1}>

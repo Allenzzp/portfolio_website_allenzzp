@@ -12,13 +12,6 @@ const Technologies = () =>  (
     <SectionText>
       I've worked with a range of technologies in the web development world. From Front-end to Back-end also including Design. Followings are my current tech stack, and I'm keeping updating and expending them.
     </SectionText>
-    {/* <div>
-      <TagList>
-        { ["React", "Js", "html", "Python", "Css"].map((tech, i) => (
-          <Tag Key={ i }>{ tech }</Tag>
-        ))}
-      </TagList>
-    </div> */}
 
     <List>
       <ListItem>
