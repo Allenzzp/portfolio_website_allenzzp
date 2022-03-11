@@ -6,9 +6,37 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <FooterWrapper>
+      <LinkList>
+        <LinkColumn>
+          <linkTitle>Call</linkTitle>
+          <LinkItem href="tel:778-251-6942">778-251-6942</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <linkTitle>Email</linkTitle>
+          <LinkItem href="mailto:allenzhaozp@gmail.com">allenzhaozp@gmail.com</LinkItem>
+        </LinkColumn>
+      </LinkList>
+
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>Innovating one amazing project at a time!</Slogan>
+        </CompanyContainer>
+        
+        <SocialContainer>
+          <SocialIcons href="https://github.com/Allenzzp">
+          <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/allenzzp/">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://instagram.com">
+            <AiFillInstagram size="3rem" />
+          </SocialIcons>
+        </SocialContainer>
+
+      </SocialIconsContainer>
+    </FooterWrapper>
   );
 };
 
