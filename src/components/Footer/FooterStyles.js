@@ -82,7 +82,7 @@ export const CompanyContainer = styled.div`
 
 
 export const Slogan = styled.p`
-	color: rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.8);
 	min-width: 280px;
 	letter-spacing: 0.02em;
 	font-size: 18px;

@@ -89,20 +89,22 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#FFFFFF;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #4d4d4d;
 border-radius: 15px;
 transition: 0.5s;
+min-height: 3rem;
+min-width: 8rem;
 &:hover{
-  background: #801414;
-
+  background: #000000;
 }
 `;
 
 export const TagList = styled.ul`
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 padding: 2rem;
 `
