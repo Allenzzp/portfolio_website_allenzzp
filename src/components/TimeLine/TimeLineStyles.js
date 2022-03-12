@@ -51,7 +51,7 @@ export const CarouselItem = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
     min-width: 120px;
-    background: #0E131F;
+    background: #FFFFFF;
     padding: 4px;
     align-content: start;
     scroll-snap-align: start;
@@ -60,7 +60,7 @@ export const CarouselItem = styled.div`
     position: relative;
     height: fit-content;
     
-    ${(props) => props.active === props.index ? `opacity: 1` : `opacity: 0.5`}; 
+    ${(props) => props.active === props.index ? `opacity: 1` : `opacity: 0.7`}; 
   }
 `
 
@@ -146,7 +146,7 @@ export const CarouselButton = styled.button`
 `
 
 export const CarouselButtonDot = styled.div`
-  background-color: white;
+  background-color: black;
   border-radius: 10px;
   margin: auto;
   width: 3px;
