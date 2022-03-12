@@ -1,19 +1,22 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SectionDivider } from '../../styles/GlobalComponents';
 
 const Footer = () => {
   return (
     <FooterWrapper>
+      
+      <SectionDivider />
       <LinkList>
         <LinkColumn>
-          <linkTitle>Call</linkTitle>
+          <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:778-251-6942">778-251-6942</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <linkTitle>Email</linkTitle>
+          <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:allenzhaozp@gmail.com">allenzhaozp@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
@@ -29,9 +32,6 @@ const Footer = () => {
           </SocialIcons>
           <SocialIcons href="https://www.linkedin.com/in/allenzzp/">
             <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://instagram.com">
-            <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
 

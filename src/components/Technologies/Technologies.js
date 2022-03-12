@@ -1,7 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiCode, DiReact, DiNodejsSmall, DiPostgresql } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TagList, Tag } from '../Projects/ProjectsStyles';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
@@ -15,32 +14,41 @@ const Technologies = () =>  (
 
     <List>
       <ListItem>
+        <DiCode size="3rem" />
+        <ListContainer>
+          <ListTitle>Programming Languages</ListTitle>
+          <ListParagraph>
+            Javascript <br />
+            Python <br />
+            Java <br />
+            Ruby <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            React.js <br />
+            JQuery <br />
+            SASS <br />
+            HTML5, CSS3
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <div style={{display: "flex"}}>
+          <DiNodejsSmall size="3rem" />
+          <DiPostgresql size="3rem" />
+        </div>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js and Database
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiZend size="3rem" />
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Node.js <br />
+            Express.js <br />
+            Ruby on Rails <br />
+            PostgreSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
